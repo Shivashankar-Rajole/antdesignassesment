@@ -1,0 +1,233 @@
+.logo-icon2 {
+  position: relative;
+  width: 182.56px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.nav-logo5 {
+  justify-content: flex-start;
+}
+.nav-logo4,
+.nav-logo5,
+.nav-nav-menu2,
+.navigation2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav-logo4 {
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.nav-nav-menu2,
+.navigation2 {
+  justify-content: flex-end;
+}
+.navigation2 {
+  align-self: stretch;
+  background-color: var(--background);
+  padding: var(--padding-mini) var(--padding-11xl);
+  justify-content: space-between;
+}
+.browse-marketplace,
+.browse-through-more {
+  align-self: stretch;
+  position: relative;
+  line-height: 140%;
+}
+.browse-marketplace {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.browse-through-more {
+  font-size: var(--basebody-work-sans-size);
+}
+.browse-marketplace-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.search-your-favourite {
+  flex: 1;
+  position: relative;
+  line-height: 140%;
+}
+.rank-artist2 {
+  width: 230px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.magnifyingglass-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.table-header2,
+.table-headers2 {
+  width: 315px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.table-header2 {
+  border-radius: var(--br-xl);
+  border: 1px solid var(--background-secondary);
+  width: 317px;
+  height: 62px;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-xs) 0;
+  justify-content: center;
+  font-size: var(--basebody-work-sans-size);
+  color: var(--caption-label-text);
+}
+.headline-subhead7,
+.headline-subhead8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.headline-subhead8 {
+  width: 315px;
+  align-items: flex-start;
+  gap: var(--gap-11xl);
+}
+.headline-subhead7 {
+  align-self: stretch;
+  background-color: var(--background);
+  padding: var(--padding-21xl) 0;
+  align-items: center;
+}
+.tab-bar-child {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid var(--background-secondary);
+  box-sizing: border-box;
+  height: 1px;
+  flex-shrink: 0;
+}
+.created12 {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.created12,
+.div14 {
+  position: relative;
+  line-height: 140%;
+}
+.wrapper9 {
+  border-radius: var(--br-xl);
+  background-color: var(--caption-label-text);
+  display: none;
+  flex-direction: row;
+  padding: var(--padding-8xs) var(--padding-3xs);
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-family: var(--h5-space-mono);
+}
+.tab12 {
+  flex: 1;
+  border-bottom: 2px solid var(--caption-label-text);
+  box-sizing: border-box;
+  height: 60px;
+  display: flex;
+  padding: 0 var(--padding-3xs);
+  justify-content: center;
+  gap: var(--gap-base);
+  color: var(--text);
+}
+.tab12,
+.tab13,
+.tab14,
+.wrapper10 {
+  flex-direction: row;
+  align-items: center;
+}
+.wrapper10 {
+  border-radius: var(--br-xl);
+  background-color: var(--background-secondary);
+  display: none;
+  padding: var(--padding-8xs) var(--padding-3xs);
+  justify-content: flex-start;
+  text-align: left;
+  color: var(--text);
+  font-family: var(--h5-space-mono);
+}
+.tab13,
+.tab14 {
+  flex: 1;
+  height: 60px;
+  padding: 0 var(--padding-3xs);
+  box-sizing: border-box;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.tab13 {
+  display: none;
+}
+.tab14 {
+  display: flex;
+}
+.tab-bar2,
+.tabs-container,
+.tabs3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tabs3 {
+  flex: 1;
+}
+.tab-bar2,
+.tabs-container {
+  width: 315px;
+}
+.tab-bar2 {
+  background-color: var(--background);
+  width: 375px;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-3xs);
+}
+.nft-cards-section {
+  align-self: stretch;
+  background-color: var(--background-secondary);
+  padding: var(--padding-21xl) 0;
+  align-items: center;
+}
+.marketplace-mobile,
+.marketplace-section,
+.nft-cards-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.marketplace-section {
+  align-self: stretch;
+  align-items: center;
+  text-align: center;
+  font-size: var(--basebody-work-sans-size);
+  color: var(--caption-label-text);
+}
+.marketplace-mobile {
+  position: relative;
+  background-color: var(--background);
+  width: 100%;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--h4-work-sans-size);
+  color: var(--text);
+  font-family: var(--h1-work-sans);
+}

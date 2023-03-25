@@ -1,0 +1,112 @@
+.photo-icon18 {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  height: 310px;
+  object-fit: cover;
+}
+.get-exclusive-promotions2,
+.join-our-weekly2 {
+  align-self: stretch;
+  position: relative;
+  text-transform: capitalize;
+}
+.join-our-weekly2 {
+  line-height: 120%;
+  font-weight: 600;
+}
+.get-exclusive-promotions2 {
+  font-size: var(--h5-space-mono-size);
+  line-height: 160%;
+}
+.headline-subhead28 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.enter-your-email2 {
+  flex: 1;
+  position: relative;
+  line-height: 140%;
+}
+.envelopesimple-icon5 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.button55 {
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+}
+.button54 {
+  border-radius: var(--br-xl);
+  background-color: var(--call-to-action);
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-31xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-xs);
+  cursor: pointer;
+  text-align: center;
+  color: var(--text);
+}
+.headline-subhead-container,
+.subscribe-form {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+.subscribe-form {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--text);
+  height: 60px;
+  flex-direction: row;
+  padding: var(--padding-base) 0 var(--padding-base) var(--padding-xl);
+  box-sizing: border-box;
+  align-items: center;
+  gap: var(--gap-xs);
+  font-size: var(--basebody-work-sans-size);
+  color: var(--background);
+}
+.headline-subhead-container {
+  width: 425px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-21xl);
+}
+.subscribe-widget4,
+.subscribe-widget5 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.subscribe-widget5 {
+  border-radius: var(--br-xl);
+  background-color: var(--background-secondary);
+  width: 1050px;
+  flex-direction: row;
+  padding: var(--padding-41xl);
+  box-sizing: border-box;
+  gap: var(--gap-61xl);
+}
+.subscribe-widget4 {
+  align-self: stretch;
+  background-color: var(--background);
+  flex-direction: column;
+  padding: var(--padding-21xl) var(--padding-176xl) var(--padding-61xl);
+  text-align: left;
+  font-size: var(--h3-work-sans-size);
+  color: var(--text);
+  font-family: var(--h1-work-sans);
+}

@@ -1,0 +1,12 @@
+.nft-cards-row1 {
+  width: 315px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  text-align: left;
+  font-size: var(--h5-space-mono-size);
+  color: var(--text);
+  font-family: var(--h1-work-sans);
+}

@@ -1,0 +1,122 @@
+.avatar-placeholder-icon53 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-81xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.avatar-1 {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.artist-avatar6,
+.avatar53 {
+  display: flex;
+  justify-content: flex-start;
+  z-index: 0;
+}
+.avatar53 {
+  width: 60px;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.artist-avatar6 {
+  flex-direction: column;
+  align-items: flex-end;
+}
+.dish-studio39 {
+  align-self: stretch;
+  position: relative;
+  line-height: 140%;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.eth43,
+.total-sales9 {
+  flex: 1;
+  position: relative;
+  line-height: 140%;
+}
+.eth43 {
+  font-family: var(--h5-space-mono);
+  color: var(--text);
+}
+.additional-info26 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  font-size: var(--basebody-work-sans-size);
+  color: var(--caption-label-text);
+}
+.artist-info15 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-8xs);
+  z-index: 1;
+}
+.div64,
+.ranking-number28 {
+  margin: 0 !important;
+  position: absolute;
+}
+.div64 {
+  top: calc(50% - 11px);
+  left: calc(50% - 5px);
+  line-height: 140%;
+  z-index: 0;
+}
+.ranking-number28 {
+  top: 13px;
+  left: 12px;
+  border-radius: var(--br-xl);
+  background-color: var(--background);
+  width: 30px;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  z-index: 2;
+  text-align: center;
+  font-size: var(--basebody-work-sans-size);
+  color: var(--caption-label-text);
+  font-family: var(--h5-space-mono);
+}
+.artist-card41,
+.artist-cards-row2,
+.ranking-number28 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.artist-card41 {
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: var(--background-secondary);
+  padding: var(--padding-xl);
+  justify-content: center;
+  position: relative;
+  gap: var(--gap-xl);
+  cursor: pointer;
+}
+.artist-cards-row2 {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  text-align: left;
+  font-size: var(--h5-space-mono-size);
+  color: var(--text);
+  font-family: var(--h1-work-sans);
+}

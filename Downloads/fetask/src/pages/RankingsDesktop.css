@@ -1,0 +1,209 @@
+.top-creators2 {
+  flex: 1;
+  position: relative;
+  line-height: 110%;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.headline2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.check-out-top2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 160%;
+}
+.subhead2 {
+  align-self: stretch;
+  align-items: flex-start;
+  font-size: var(--h5-space-mono-size);
+}
+.headline-subhead5,
+.headline-subhead6,
+.subhead2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.headline-subhead6 {
+  width: 1050px;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+}
+.headline-subhead5 {
+  align-self: stretch;
+  background-color: var(--background);
+  padding: var(--padding-61xl) 0;
+  align-items: center;
+  text-align: left;
+  color: var(--text);
+}
+.created8 {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.created8,
+.div9 {
+  position: relative;
+  line-height: 140%;
+}
+.wrapper5 {
+  border-radius: var(--br-xl);
+  background-color: var(--caption-label-text);
+  display: none;
+  flex-direction: row;
+  padding: var(--padding-8xs) var(--padding-3xs);
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--basebody-work-sans-size);
+  font-family: var(--h5-space-mono);
+}
+.tab8 {
+  flex: 1;
+  border-bottom: 2px solid var(--caption-label-text);
+  box-sizing: border-box;
+  height: 60px;
+  display: flex;
+  padding: 0 var(--padding-11xl);
+  justify-content: center;
+  gap: var(--gap-base);
+  color: var(--text);
+}
+.tab8,
+.tab9,
+.wrapper6 {
+  flex-direction: row;
+  align-items: center;
+}
+.wrapper6 {
+  border-radius: var(--br-xl);
+  background-color: var(--background-secondary);
+  display: none;
+  padding: var(--padding-8xs) var(--padding-3xs);
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--basebody-work-sans-size);
+  color: var(--text);
+  font-family: var(--h5-space-mono);
+}
+.tab9 {
+  flex: 1;
+  height: 60px;
+  display: flex;
+  padding: 0 var(--padding-11xl);
+  box-sizing: border-box;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.tabs-wrapper,
+.tabs2 {
+  display: flex;
+  justify-content: flex-start;
+}
+.tabs2 {
+  width: 1050px;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.tabs-wrapper {
+  align-self: stretch;
+  background-color: var(--background);
+  flex-direction: column;
+  padding: 0 var(--padding-3xs);
+  align-items: center;
+  font-size: var(--h5-space-mono-size);
+}
+.artist1,
+.div13 {
+  position: relative;
+  line-height: 140%;
+}
+.div13 {
+  display: inline-block;
+  width: 30px;
+  flex-shrink: 0;
+}
+.artist1 {
+  text-align: left;
+}
+.rank-artist1 {
+  width: 430px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.change3 {
+  align-self: stretch;
+  position: relative;
+  line-height: 140%;
+}
+.nfts-sold {
+  width: 160px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.stats-header1,
+.table-headers1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.stats-header1 {
+  justify-content: flex-end;
+  gap: var(--gap-xl);
+  text-align: left;
+}
+.table-headers1 {
+  width: 1050px;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.rankings-desktop,
+.rankings1,
+.table-header1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.table-header1 {
+  border-radius: var(--br-xl);
+  border: 1px solid var(--background-secondary);
+  box-sizing: border-box;
+  width: 1052px;
+  height: 48px;
+  flex-shrink: 0;
+  padding: var(--padding-xs) 0;
+}
+.rankings-desktop,
+.rankings1 {
+  background-color: var(--background);
+}
+.rankings1 {
+  align-self: stretch;
+  padding: var(--padding-21xl) 0;
+  gap: var(--gap-xl);
+  font-size: var(--basebody-work-sans-size);
+  font-family: var(--h5-space-mono);
+}
+.rankings-desktop {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: var(--h2-work-sans-size);
+  color: var(--caption-label-text);
+  font-family: var(--h1-work-sans);
+}

@@ -1,0 +1,124 @@
+.avatar-placeholder-icon12 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-81xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.asset-12-212 {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  flex-shrink: 0;
+}
+.artist-avatar,
+.avatar12 {
+  display: flex;
+  justify-content: flex-start;
+  z-index: 0;
+}
+.avatar12 {
+  width: 110px;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.artist-avatar {
+  flex-direction: column;
+  align-items: flex-end;
+}
+.dish-studio8 {
+  align-self: stretch;
+  position: relative;
+  line-height: 140%;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.eth4,
+.total-sales2 {
+  flex: 1;
+  position: relative;
+  line-height: 140%;
+}
+.eth4 {
+  font-family: var(--h5-space-mono);
+  color: var(--text);
+  text-align: left;
+}
+.additional-info6,
+.artist-info4 {
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+}
+.additional-info6 {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+  text-align: right;
+  font-size: var(--basebody-work-sans-size);
+  color: var(--caption-label-text);
+}
+.artist-info4 {
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-8xs);
+  z-index: 1;
+}
+.div32,
+.ranking-number {
+  margin: 0 !important;
+  position: absolute;
+}
+.div32 {
+  top: calc(50% - 11px);
+  left: calc(50% - 5px);
+  line-height: 140%;
+  z-index: 0;
+}
+.ranking-number {
+  top: 18px;
+  left: 20px;
+  border-radius: var(--br-xl);
+  background-color: var(--background);
+  width: 30px;
+  flex-direction: row;
+  align-items: flex-start;
+  z-index: 2;
+  font-size: var(--basebody-work-sans-size);
+  color: var(--caption-label-text);
+  font-family: var(--h5-space-mono);
+}
+.artist-card9,
+.artist-cards-row,
+.ranking-number {
+  display: flex;
+  justify-content: flex-start;
+}
+.artist-card9 {
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: var(--background-secondary);
+  flex-direction: column;
+  padding: var(--padding-xl);
+  align-items: center;
+  position: relative;
+  gap: var(--gap-xl);
+  cursor: pointer;
+}
+.artist-cards-row {
+  width: 1050px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-11xl);
+  text-align: center;
+  font-size: var(--h5-space-mono-size);
+  color: var(--text);
+  font-family: var(--h1-work-sans);
+}

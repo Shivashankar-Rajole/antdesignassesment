@@ -1,0 +1,36 @@
+.rocketlaunch-icon10 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.button85 {
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+}
+.button84 {
+  flex: 1;
+  border-radius: var(--br-xl);
+  border: 2px solid var(--call-to-action);
+  box-sizing: border-box;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-31xl);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.section-headline-button4 {
+  width: 315px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--basebody-work-sans-size);
+  color: var(--text);
+  font-family: var(--h1-work-sans);
+}

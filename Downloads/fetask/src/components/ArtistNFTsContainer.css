@@ -1,0 +1,56 @@
+.more-from-this {
+  align-self: stretch;
+  position: relative;
+  line-height: 140%;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.arrowright-icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.button73 {
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+}
+.button72 {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  border: 2px solid var(--call-to-action);
+  box-sizing: border-box;
+  height: 60px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-31xl);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--basebody-work-sans-size);
+}
+.more-from-artist,
+.more-nfts-from-the-artist {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.more-from-artist {
+  width: 315px;
+  align-items: flex-start;
+  gap: var(--gap-11xl);
+}
+.more-nfts-from-the-artist {
+  align-self: stretch;
+  background-color: var(--background);
+  padding: var(--padding-21xl) 0;
+  align-items: center;
+  text-align: left;
+  font-size: var(--h4-work-sans-size);
+  color: var(--text);
+  font-family: var(--h1-work-sans);
+}

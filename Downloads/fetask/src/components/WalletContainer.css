@@ -1,0 +1,99 @@
+.image-placeholder-icon35 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.connect-wallet2 {
+  flex: 1;
+  position: relative;
+  line-height: 120%;
+  text-transform: capitalize;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 325px;
+}
+.choose-a-wallet2 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--basebody-work-sans-size);
+  line-height: 140%;
+}
+.headline-subhead29,
+.headline-subhead30 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.headline-subhead30 {
+  align-self: stretch;
+  gap: var(--gap-xl);
+}
+.headline-subhead29 {
+  width: 325px;
+}
+.metamask-icon2 {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.metamask9 {
+  flex: 1;
+  position: relative;
+  line-height: 140%;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.metamask8,
+.wallet-options2 {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.metamask8 {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--background-secondary);
+  border: 1px solid var(--call-to-action);
+  box-sizing: border-box;
+  height: 60px;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 var(--padding-21xl);
+  align-items: center;
+  cursor: pointer;
+}
+.wallet-options2 {
+  width: 320px;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: var(--h5-space-mono-size);
+}
+.connect-a-wallet5,
+.connect-wallet-section2 {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.connect-a-wallet5 {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-61xl) 0;
+  align-items: flex-start;
+}
+.connect-wallet-section2 {
+  align-self: stretch;
+  background-color: var(--background);
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  font-size: var(--h3-work-sans-size);
+  color: var(--text);
+  font-family: var(--h1-work-sans);
+}

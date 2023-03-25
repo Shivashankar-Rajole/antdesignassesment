@@ -1,0 +1,184 @@
+.logo-icon11 {
+  position: relative;
+  width: 182.56px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.nav-logo22,
+.nav-logo23 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.nav-logo22 {
+  cursor: pointer;
+}
+.burger-menu5 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.nav-nav-menu11,
+.navigation11 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.navigation11 {
+  align-self: stretch;
+  background-color: var(--background);
+  padding: var(--padding-mini) var(--padding-31xl);
+  justify-content: space-between;
+}
+.image-placeholder-icon18 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.create-account1 {
+  flex: 1;
+  position: relative;
+  line-height: 120%;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.headline6 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.welcome-enter-your1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 140%;
+}
+.subhead6 {
+  align-self: stretch;
+  font-size: var(--basebody-work-sans-size);
+}
+.headline-subhead21,
+.headline-subhead22,
+.subhead6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.headline-subhead22 {
+  align-self: stretch;
+  gap: var(--gap-xl);
+}
+.headline-subhead21 {
+  width: 325px;
+}
+.user-icon1 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.username4 {
+  flex: 1;
+  position: relative;
+  line-height: 140%;
+}
+.eyeslash-icon4 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  display: none;
+}
+.type-form4,
+.typeform1 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.type-form4 {
+  border-radius: var(--br-xl);
+  background-color: var(--text);
+  border: 1px solid var(--caption-label-text);
+  box-sizing: border-box;
+  height: 46px;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-xl);
+  align-items: center;
+  gap: var(--gap-xs);
+}
+.typeform1 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-mini);
+}
+.button35 {
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+}
+.button34 {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--call-to-action);
+  height: 46px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-31xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+  text-align: center;
+  color: var(--text);
+}
+.create-account-form2,
+.form1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.form1 {
+  width: 325px;
+  gap: var(--gap-11xl);
+  font-size: var(--basebody-work-sans-size);
+  color: var(--background);
+}
+.create-account-form2 {
+  flex: 1;
+  padding: var(--padding-61xl) 0;
+  gap: var(--gap-21xl);
+}
+.create-account-section1,
+.create-account-tablet {
+  background-color: var(--background);
+  display: flex;
+  justify-content: flex-start;
+}
+.create-account-section1 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-21xl);
+}
+.create-account-tablet {
+  position: relative;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--h3-work-sans-size);
+  color: var(--text);
+  font-family: var(--h1-work-sans);
+}

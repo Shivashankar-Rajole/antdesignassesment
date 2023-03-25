@@ -1,0 +1,170 @@
+.avatar-placeholder-icon52 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-101xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.asset-12-252 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.avatar52 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dish-studio38 {
+  position: relative;
+  line-height: 140%;
+}
+.artist-card40 {
+  border-radius: var(--br-xl);
+  background-color: var(--background-secondary);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-xl);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  cursor: pointer;
+}
+.magic-mashrooms2 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--h3-work-sans-size);
+  line-height: 120%;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.auction-ends-in5 {
+  line-height: 110%;
+}
+.auction-ends-in5,
+.b27,
+.hours11 {
+  align-self: stretch;
+  position: relative;
+}
+.b27 {
+  line-height: 120%;
+  text-transform: capitalize;
+}
+.hours11 {
+  flex: 1;
+  font-size: var(--caption-work-sans-size);
+  line-height: 110%;
+}
+.hours10 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.b28 {
+  position: relative;
+  font-size: var(--h4-work-sans-size);
+  line-height: 140%;
+  text-transform: capitalize;
+}
+.auction-timer5,
+.timer5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  font-size: var(--h3-work-sans-size);
+}
+.auction-timer5 {
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkslategray-100);
+  backdrop-filter: blur(10px);
+  flex-direction: column;
+  padding: var(--padding-11xl);
+  justify-content: flex-end;
+  font-size: var(--caption-work-sans-size);
+  font-family: var(--h5-space-mono);
+}
+.eye-icon3 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.button87 {
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+}
+.button86 {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--text);
+  height: 60px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xl) var(--padding-31xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+  cursor: pointer;
+  text-align: center;
+  color: var(--background);
+}
+.nft-artst-name-button2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.nft-artst-name-button-wrapper {
+  width: 315px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.nft-highlight2,
+.nft-info16 {
+  align-self: stretch;
+  display: flex;
+}
+.nft-info16 {
+  background: linear-gradient(180deg, rgba(162, 89, 255, 0), #a259ff);
+  flex-direction: row;
+  padding: var(--padding-101xl) var(--padding-176xl) var(--padding-21xl);
+  align-items: flex-end;
+  justify-content: center;
+}
+.nft-highlight2 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-image: url(/public/nft-highlight1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--basebody-work-sans-size);
+  color: var(--text);
+  font-family: var(--h1-work-sans);
+}

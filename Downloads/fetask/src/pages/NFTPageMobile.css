@@ -1,0 +1,53 @@
+.logo-icon6 {
+  position: relative;
+  width: 182.56px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.nav-logo12,
+.nav-logo13 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.nav-logo12 {
+  cursor: pointer;
+}
+.burger-menu-icon3 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.nav-nav-menu6,
+.navigation6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.navigation6 {
+  align-self: stretch;
+  background-color: var(--background);
+  padding: var(--padding-mini) var(--padding-11xl);
+  justify-content: space-between;
+}
+.image-placeholder-icon11 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 320px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.nft-page-mobile {
+  position: relative;
+  background-color: var(--background);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}

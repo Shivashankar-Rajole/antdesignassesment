@@ -1,0 +1,17 @@
+.nft-cards-row4,
+.nft-cards-section5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.nft-cards-row4 {
+  width: 315px;
+  align-items: flex-start;
+  gap: var(--gap-11xl);
+}
+.nft-cards-section5 {
+  align-self: stretch;
+  background-color: var(--background-secondary);
+  padding: var(--padding-61xl) 0;
+  align-items: center;
+}

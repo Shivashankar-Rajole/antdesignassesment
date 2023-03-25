@@ -1,0 +1,47 @@
+.logo-icon5 {
+  position: relative;
+  width: 182.56px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.nav-logo10,
+.nav-logo11 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.nav-logo10 {
+  cursor: pointer;
+}
+.burger-menu2 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.nav-nav-menu5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.connect-wallet-tablet,
+.navigation5 {
+  background-color: var(--background);
+  display: flex;
+}
+.navigation5 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-mini) var(--padding-31xl);
+  align-items: center;
+  justify-content: space-between;
+}
+.connect-wallet-tablet {
+  position: relative;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}

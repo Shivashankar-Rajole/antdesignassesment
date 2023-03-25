@@ -1,0 +1,74 @@
+.logo-icon14 {
+  position: relative;
+  width: 243.41px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.nav-logo28 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.rocketlaunch-icon5 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  display: none;
+}
+.button46 {
+  position: relative;
+  line-height: 10%;
+  font-weight: 100;
+}
+.marketplace {
+  border-radius: var(--br-xl);
+  height: 46px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+  cursor: pointer;
+}
+.user-icon5 {
+  position: relative;
+  width: 10px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.sign-up {
+  border-radius: 5px;
+  background-color: blue;
+  height: 20px;
+  padding: 0 var(--padding-11xl);
+  box-sizing: border-box;
+  justify-content: center;
+  gap: var(--gap-xs);
+  cursor: pointer;
+}
+.nav-nav-menu14,
+.navigation14,
+.sign-up {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav-nav-menu14 {
+  justify-content: flex-end;
+  gap: var(--gap-3xs);
+}
+.navigation14 {
+  align-self: stretch;
+  background-color: var(--background);
+  padding: var(--padding-xl) var(--padding-31xl);
+  justify-content: space-between;
+  text-align: center;
+  font-size: var(--basebody-work-sans-size);
+  color: var(--text);
+  font-family: var(--h1-work-sans);
+}

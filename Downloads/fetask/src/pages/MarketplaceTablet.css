@@ -1,0 +1,233 @@
+.logo-icon3 {
+  position: relative;
+  width: 182.56px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.nav-logo6,
+.nav-logo7 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.nav-logo6 {
+  cursor: pointer;
+}
+.burger-menu1 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.nav-nav-menu3,
+.navigation3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.navigation3 {
+  align-self: stretch;
+  background-color: var(--background);
+  padding: var(--padding-mini) var(--padding-31xl);
+  justify-content: space-between;
+}
+.browse-marketplace1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.browse-through-more1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--basebody-work-sans-size);
+  line-height: 140%;
+}
+.browse-marketplace-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.search-your-favourite1 {
+  flex: 1;
+  position: relative;
+  line-height: 140%;
+}
+.rank-artist3,
+.table-header3,
+.table-headers3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.rank-artist3 {
+  width: 590px;
+  flex-shrink: 0;
+  justify-content: flex-start;
+}
+.table-header3,
+.table-headers3 {
+  width: 680px;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.table-header3 {
+  border-radius: var(--br-xl);
+  border: 1px solid var(--background-secondary);
+  width: 682px;
+  height: 62px;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-xs) 0;
+  justify-content: center;
+  font-size: var(--basebody-work-sans-size);
+  color: var(--caption-label-text);
+}
+.headline-subhead10,
+.headline-subhead9 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.headline-subhead10 {
+  width: 680px;
+  align-items: flex-start;
+  gap: var(--gap-11xl);
+}
+.headline-subhead9 {
+  align-self: stretch;
+  background-color: var(--background);
+  padding: var(--padding-41xl) 0;
+  align-items: center;
+}
+.instance-child {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid var(--background-secondary);
+  box-sizing: border-box;
+  height: 1px;
+  flex-shrink: 0;
+}
+.created15 {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.created15,
+.div17 {
+  position: relative;
+  line-height: 140%;
+}
+.wrapper12 {
+  border-radius: var(--br-xl);
+  background-color: var(--caption-label-text);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-8xs) var(--padding-3xs);
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-family: var(--h5-space-mono);
+}
+.tab15 {
+  flex: 1;
+  border-bottom: 2px solid var(--caption-label-text);
+  box-sizing: border-box;
+  height: 60px;
+  display: flex;
+  padding: 0 var(--padding-11xl);
+  justify-content: center;
+  gap: var(--gap-base);
+  color: var(--text);
+}
+.tab15,
+.tab16,
+.tab17,
+.wrapper13 {
+  flex-direction: row;
+  align-items: center;
+}
+.wrapper13 {
+  border-radius: var(--br-xl);
+  background-color: var(--background-secondary);
+  display: flex;
+  padding: var(--padding-8xs) var(--padding-3xs);
+  justify-content: flex-start;
+  text-align: left;
+  color: var(--text);
+  font-family: var(--h5-space-mono);
+}
+.tab16,
+.tab17 {
+  height: 60px;
+  padding: 0 var(--padding-11xl);
+  box-sizing: border-box;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.tab16 {
+  flex: 1;
+  display: flex;
+}
+.tab17 {
+  display: none;
+}
+.line-parent,
+.tabs-frame,
+.tabs4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tabs4 {
+  flex: 1;
+}
+.line-parent,
+.tabs-frame {
+  width: 680px;
+}
+.line-parent {
+  background-color: var(--background);
+  width: 834px;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-3xs);
+}
+.nft-cards-section1 {
+  align-self: stretch;
+  background-color: var(--background-secondary);
+  padding: var(--padding-41xl) 0 var(--padding-61xl);
+  align-items: center;
+  gap: var(--gap-11xl);
+}
+.marketplace-section1,
+.marketplace-tablet,
+.nft-cards-section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.marketplace-section1 {
+  align-self: stretch;
+  align-items: center;
+  text-align: center;
+  font-size: var(--basebody-work-sans-size);
+  color: var(--caption-label-text);
+}
+.marketplace-tablet {
+  position: relative;
+  background-color: var(--background);
+  width: 100%;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--h3-work-sans-size);
+  color: var(--text);
+  font-family: var(--h1-work-sans);
+}

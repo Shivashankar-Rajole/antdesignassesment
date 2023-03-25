@@ -1,0 +1,115 @@
+.image-placeholder-icon10 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.connect-wallet1 {
+  flex: 1;
+  position: relative;
+  line-height: 110%;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.headline4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.choose-a-wallet1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 160%;
+}
+.subhead4 {
+  align-self: stretch;
+  font-size: var(--h5-space-mono-size);
+}
+.headline-subhead15,
+.headline-subhead16,
+.subhead4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.headline-subhead16 {
+  align-self: stretch;
+  gap: var(--gap-xl);
+}
+.headline-subhead15 {
+  width: 460px;
+}
+.metamask-icon1 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.metamask5 {
+  flex: 1;
+  position: relative;
+  line-height: 140%;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.metamask4 {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--background-secondary);
+  border: 1px solid var(--call-to-action);
+  box-sizing: border-box;
+  height: 72px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 var(--padding-21xl);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  cursor: pointer;
+}
+.connect-a-wallet,
+.wallet-options1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.wallet-options1 {
+  width: 320px;
+  gap: var(--gap-xl);
+  font-size: var(--h5-space-mono-size);
+}
+.connect-a-wallet {
+  flex: 1;
+  padding: var(--padding-81xl) 0;
+  gap: var(--gap-21xl);
+}
+.connect-wallet-desktop,
+.connect-wallet-section1 {
+  background-color: var(--background);
+  display: flex;
+  justify-content: flex-start;
+}
+.connect-wallet-section1 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-41xl);
+}
+.connect-wallet-desktop {
+  position: relative;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--h2-work-sans-size);
+  color: var(--text);
+  font-family: var(--h1-work-sans);
+}
