@@ -1,15 +1,15 @@
 import React from "react";
 import '../App.css';
 import './modal.css'
-import { EditOutlined, DeleteOutlined, HeartOutlined, HeartFilled, MailOutlined, GlobalOutlined, PhoneOutlined } from '@ant-design/icons';
+import { EditOutlined, DeleteOutlined, HeartOutlined, MailOutlined, GlobalOutlined, PhoneOutlined } from '@ant-design/icons';
 import {  Card } from 'antd';
 // import { Col, Row } from 'antd';
 // import Icon from '@ant-design/icons';
 import { Modal } from 'antd';
-const gridStyle = {
-    width: '100%',
-    textAlign: 'center',
-};
+// const gridStyle = {
+//     width: '100%',
+//     textAlign: 'center',
+// };
 
 
 class Home extends React.Component {
