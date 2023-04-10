@@ -2,7 +2,7 @@ import React from "react";
 import '../App.css';
 import './modal.css'
 import { EditOutlined, DeleteOutlined, HeartOutlined, MailOutlined, GlobalOutlined, PhoneOutlined } from '@ant-design/icons';
-import { Card ,Modal} from 'antd';
+import { Card, Modal, Form, Input, Typography, Button, Checkbox ,Select} from 'antd';
 
 
 class Home extends React.Component {
@@ -41,6 +41,29 @@ class Home extends React.Component {
     //     <HeartFilled style={{ color: "red" }} />
 
     // }
+    CustomizedForm = ({ onChange, fields }) => (
+        <Form
+            name="global_state"
+            layout="inline"
+            fields={fields}
+            onFieldsChange={(_, allFields) => {
+                onChange(allFields);
+            }}
+        >
+            <Form.Item
+                name="username"
+                label="Username"
+                rules={[
+                    {
+                        required: true,
+                        message: 'Username is required!',
+                    },
+                ]}
+            >
+                <Input />
+            </Form.Item>
+        </Form>
+    );
     onDeleteRecord = (record, index) => {
         const { items } = this.state;
         items.splice(index, 1);
@@ -49,10 +72,6 @@ class Home extends React.Component {
         });
         console.log("deleted", record)
     }
-    onEdit = (record, index) => {
-
-    }
-
     showModal = () => {
         this.setState({
             visible: true,
@@ -72,6 +91,7 @@ class Home extends React.Component {
             visible: false,
         });
     };
+
 
     render() {
         const { error, isLoaded, items } = this.state;
@@ -98,42 +118,79 @@ class Home extends React.Component {
                                         />
                                     }
                                     actions={[
-
                                         <HeartOutlined style={{ color: "red" }} />,
-                                        <EditOutlined onClick={this.showModal} />,
+                                        <EditOutlined onClick={()=>{this.showModal()}}/>,
                                         <DeleteOutlined onClick={() => { this.onDeleteRecord(this.state.isModalVisible, item, index) }} />,
                                     ]}
                                 >
 
-                                    <Modal className="modal"
+                                    <Modal
+                                     bodyStyle={{
+                                        opacity: 1
+                                    }}
                                         title="Basic Modal"
                                         visible={this.state.visible}
                                         onOk={this.handleOk}
                                         onCancel={this.handleCancel}
                                     >
-                                        <div className="form">
-                                            <div className="form-body">
-                                                <div className="username">
-                                                    <label className="form__label" for="firstName"> Name </label>
-                                                    <input className="form__input" type="text" value={item.name} required />
-                                                </div>
-                                                <div className="email">
-                                                    <label className="form__label" for="Email">Email </label>
-                                                    <input type="text" value={item.email} required />
-                                                </div>
-                                                <div className="phone">
-                                                    <label className="form__label" for="phone">Phone </label>
-                                                    <input type="text" value={item.phone} required />
-                                                </div>
-                                                <div className="Website">
-                                                    <label className="form__label" for="email">Website </label>
-                                                    <input type="text" value={item.website} required />
-                                                </div>
+                                        <Form
+                                            labelCol={{
+                                                span: 8,
+                                            }}
+                                            wrapperCol={{
+                                                span: 16,
+                                            }}
+                                            style={{
+                                                maxWidth: 600,
+                                            }}
+                                            initialValues={{
+                                                remember: true,
+                                            }}
 
-                                            </div>
+                                        >
+                                            <Form.Item
+                                                label="Name"
+                                                name="username"
+                                                rules={[
+                                                    {
+                                                        required: true,
+                                                        message: 'Please input your username!',
+                                                    },
+                                                ]}
+                                            >
+                                                <Input />
 
-                                        </div>
-
+                                            </Form.Item>
+                                            <Form.Item
+                                                name="email"
+                                                label="E-mail"
+                                                rules={[
+                                                    {
+                                                        type: 'email',
+                                                        message: 'The input is not valid E-mail!',
+                                                    },
+                                                    {
+                                                        required: true,
+                                                        message: 'Please input your E-mail!',
+                                                    },
+                                                ]}
+                                            >
+                                                <Input />
+                                            </Form.Item>    <Form.Item
+                                                name="phone"
+                                                label="Phone Number"
+                                                rules={[{ required: true, message: 'Please input your phone number!' }]}
+                                            >
+                                                <Input style={{ width: '100%' }} />
+                                            </Form.Item> <Form.Item
+                                                name="website"
+                                                label="Website"
+                                                value={item.website}
+                                                rules={[{ required: true, message: 'Please input website!' }]}
+                                            >
+                                                    <Input />
+                                            </Form.Item>
+                                        </Form>
                                     </Modal>
                                     <Meta className="title"
                                         title={item.name}
