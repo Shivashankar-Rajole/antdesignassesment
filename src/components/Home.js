@@ -1,7 +1,7 @@
 import React from "react";
 import '../App.css';
 import './modal.css'
-import { EditOutlined, DeleteOutlined, HeartOutlined, MailOutlined, GlobalOutlined, PhoneOutlined } from '@ant-design/icons';
+import { EditOutlined, DeleteOutlined, HeartOutlined, MailOutlined, GlobalOutlined, PhoneOutlined,HeartFilled } from '@ant-design/icons';
 import { Card, Modal, Form, Input} from 'antd';
 
 
@@ -41,29 +41,29 @@ class Home extends React.Component {
     //     <HeartFilled style={{ color: "red" }} />
 
     // }
-    CustomizedForm = ({ onChange, fields }) => (
-        <Form
-            name="global_state"
-            layout="inline"
-            fields={fields}
-            onFieldsChange={(_, allFields) => {
-                onChange(allFields);
-            }}
-        >
-            <Form.Item
-                name="username"
-                label="Username"
-                rules={[
-                    {
-                        required: true,
-                        message: 'Username is required!',
-                    },
-                ]}
-            >
-                <Input />
-            </Form.Item>
-        </Form>
-    );
+    // CustomizedForm = ({ onChange, fields }) => (
+    //     <Form
+    //         name="global_state"
+    //         layout="inline"
+    //         fields={fields}
+    //         onFieldsChange={(_, allFields) => {
+    //             onChange(allFields);
+    //         }}
+    //     >
+    //         <Form.Item
+    //             name="username"
+    //             label="Username"
+    //             rules={[
+    //                 {
+    //                     required: true,
+    //                     message: 'Username is required!',
+    //                 },
+    //             ]}
+    //         >
+    //             <Input />
+    //         </Form.Item>
+    //     </Form>
+    // );
     onDeleteRecord = (record, index) => {
         const { items } = this.state;
         items.splice(index, 1);
@@ -72,7 +72,8 @@ class Home extends React.Component {
         });
         console.log("deleted", record)
     }
-    showModal = () => {
+    showModalValue = (record,index) => {
+        console.log(record,index,"UsersInfo")
         this.setState({
             visible: true,
         });
@@ -91,6 +92,11 @@ class Home extends React.Component {
             visible: false,
         });
     };
+    clickIcon=(record,index)=>
+    {
+        <HeartFilled/>
+        console.log(record,index,"HeartICon")
+    }
 
 
     render() {
@@ -105,7 +111,7 @@ class Home extends React.Component {
             return (
 
                 <div class="container">
-                    {items.map((item, index) => (
+                    {items.map((item, index,...values) => (
                         <div className="card_item" key={item.id}>
                             <div className="card_inner">
 
@@ -118,8 +124,8 @@ class Home extends React.Component {
                                         />
                                     }
                                     actions={[
-                                        <HeartOutlined style={{ color: "red" }} />,
-                                        <EditOutlined onClick={()=>{this.showModal()}}/>,
+                                        <HeartOutlined onClick={()=>{this.clickIcon(item,index)}} style={{ color: "red" }} />,
+                                        <EditOutlined onClick={()=>{this.showModalValue(item,index)}}/>,
                                         <DeleteOutlined onClick={() => { this.onDeleteRecord(this.state.isModalVisible, item, index) }} />,
                                     ]}
                                 >
@@ -149,16 +155,16 @@ class Home extends React.Component {
 
                                         >
                                             <Form.Item
+                                            {...values}
                                                 label="Name"
-                                                name="username"
-                                                rules={[
+                                                name={[items, "key"]}                                                rules={[
                                                     {
                                                         required: true,
                                                         message: 'Please input your username!',
                                                     },
                                                 ]}
                                             >
-                                                <Input />
+                                                <Input value = {item.name} placeholder ="Name"/>
 
                                             </Form.Item>
                                             <Form.Item
@@ -175,20 +181,21 @@ class Home extends React.Component {
                                                     },
                                                 ]}
                                             >
-                                                <Input />
+                                                <Input value = {item.email} placeholder ="Email"/>
                                             </Form.Item>    <Form.Item
                                                 name="phone"
                                                 label="Phone Number"
+                                                
                                                 rules={[{ required: true, message: 'Please input your phone number!' }]}
                                             >
-                                                <Input style={{ width: '100%' }} />
+                                                <Input value={item.phone} style={{ width: '100%' }} placeholder ="Phone" />
                                             </Form.Item> <Form.Item
                                                 name="website"
                                                 label="Website"
                                                 value={item.website}
                                                 rules={[{ required: true, message: 'Please input website!' }]}
                                             >
-                                                    <Input />
+                                                    <Input value = {item.website} placeholder ="Website"/>
                                             </Form.Item>
                                         </Form>
                                     </Modal>
@@ -211,3 +218,4 @@ class Home extends React.Component {
 }
 
 export default Home;
+    
