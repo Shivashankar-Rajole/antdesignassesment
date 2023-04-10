@@ -36,41 +36,14 @@ class Home extends React.Component {
                 }
             );
     }
-    // heartFill = (item, index) => {
-
-    //     <HeartFilled style={{ color: "red" }} />
-
-    // }
-    // CustomizedForm = ({ onChange, fields }) => (
-    //     <Form
-    //         name="global_state"
-    //         layout="inline"
-    //         fields={fields}
-    //         onFieldsChange={(_, allFields) => {
-    //             onChange(allFields);
-    //         }}
-    //     >
-    //         <Form.Item
-    //             name="username"
-    //             label="Username"
-    //             rules={[
-    //                 {
-    //                     required: true,
-    //                     message: 'Username is required!',
-    //                 },
-    //             ]}
-    //         >
-    //             <Input />
-    //         </Form.Item>
-    //     </Form>
-    // );
-    onDeleteRecord = (record, index) => {
+  
+    onDeleteRecord = ( index) => {
         const { items } = this.state;
         items.splice(index, 1);
         this.setState({
             items
         });
-        console.log("deleted", record)
+        console.log("deleted",index)
     }
     showModalValue = (record, index) => {
         console.log(record, index, "UsersInfo")
@@ -113,7 +86,7 @@ class Home extends React.Component {
             return (
 
                 <div className="container">
-                    {items.map((item, index, ...values) => (
+                    {items.map((item, index,i, ...values) => (
                         <div className="card_item" key={item.id}>
                             <div className="card_inner">
 
@@ -128,7 +101,7 @@ class Home extends React.Component {
                                     actions={[
                                         <HeartOutlined onClick={() => { this.clickIcon(item, index) }} style={{ color: "red" }} />,
                                         <EditOutlined onClick={() => { this.showModalValue(item, index) }} />,
-                                        <DeleteOutlined onClick={() => { this.onDeleteRecord(this.state.isModalVisible, item, index) }} />,
+                                        <DeleteOutlined onClick={() => { this.onDeleteRecord( index) }} />,
                                     ]}
                                 >
 
