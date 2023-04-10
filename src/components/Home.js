@@ -2,7 +2,7 @@ import React from "react";
 import '../App.css';
 import './modal.css'
 import { EditOutlined, DeleteOutlined, HeartOutlined, MailOutlined, GlobalOutlined, PhoneOutlined } from '@ant-design/icons';
-import { Card, Modal, Form, Input, Typography, Button, Checkbox ,Select} from 'antd';
+import { Card, Modal, Form, Input} from 'antd';
 
 
 class Home extends React.Component {
