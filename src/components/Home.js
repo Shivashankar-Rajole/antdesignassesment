@@ -1,8 +1,8 @@
 import React from "react";
 import '../App.css';
 import './modal.css'
-import { EditOutlined, DeleteOutlined, HeartOutlined, MailOutlined, GlobalOutlined, PhoneOutlined,HeartFilled } from '@ant-design/icons';
-import { Card, Modal, Form, Input} from 'antd';
+import { EditOutlined, DeleteOutlined, HeartOutlined, MailOutlined, GlobalOutlined, PhoneOutlined, HeartFilled } from '@ant-design/icons';
+import { Card, Modal, Form, Input, Spin } from 'antd';
 
 
 class Home extends React.Component {
@@ -72,8 +72,8 @@ class Home extends React.Component {
         });
         console.log("deleted", record)
     }
-    showModalValue = (record,index) => {
-        console.log(record,index,"UsersInfo")
+    showModalValue = (record, index) => {
+        console.log(record, index, "UsersInfo")
         this.setState({
             visible: true,
         });
@@ -92,26 +92,28 @@ class Home extends React.Component {
             visible: false,
         });
     };
-    clickIcon=(record,index)=>
-    {
-        <HeartFilled/>
-        console.log(record,index,"HeartICon")
+    clickIcon = (record, index) => {
+        <HeartFilled />
+        console.log(record, index, "HeartICon")
     }
 
-
+    onFinish = (values) => {
+        console.log('Received values of form:', values);
+    };
     render() {
         const { error, isLoaded, items } = this.state;
         const { Meta } = Card;
 
+
         if (error) {
             return <div>Error: {error.message}</div>;
         } else if (!isLoaded) {
-            return <div>Loading...</div>;
+            return <div> Loading... <Spin /></div>;
         } else {
             return (
 
-                <div class="container">
-                    {items.map((item, index,...values) => (
+                <div className="container">
+                    {items.map((item, index, ...values) => (
                         <div className="card_item" key={item.id}>
                             <div className="card_inner">
 
@@ -124,22 +126,22 @@ class Home extends React.Component {
                                         />
                                     }
                                     actions={[
-                                        <HeartOutlined onClick={()=>{this.clickIcon(item,index)}} style={{ color: "red" }} />,
-                                        <EditOutlined onClick={()=>{this.showModalValue(item,index)}}/>,
+                                        <HeartOutlined onClick={() => { this.clickIcon(item, index) }} style={{ color: "red" }} />,
+                                        <EditOutlined onClick={() => { this.showModalValue(item, index) }} />,
                                         <DeleteOutlined onClick={() => { this.onDeleteRecord(this.state.isModalVisible, item, index) }} />,
                                     ]}
                                 >
 
                                     <Modal
-                                     bodyStyle={{
-                                        opacity: 1
-                                    }}
+                                        bodyStyle={{
+                                            opacity: 1
+                                        }}
                                         title="Basic Modal"
                                         visible={this.state.visible}
                                         onOk={this.handleOk}
                                         onCancel={this.handleCancel}
                                     >
-                                        <Form
+                                        <Form name="dynamic_form_nest_item" autoComplete="off"
                                             labelCol={{
                                                 span: 8,
                                             }}
@@ -155,16 +157,16 @@ class Home extends React.Component {
 
                                         >
                                             <Form.Item
-                                            {...values}
+                                                {...values}
                                                 label="Name"
-                                                name={[items, "key"]}                                                rules={[
+                                                name={[items, "key"]} rules={[
                                                     {
                                                         required: true,
                                                         message: 'Please input your username!',
                                                     },
                                                 ]}
                                             >
-                                                <Input value = {item.name} placeholder ="Name"/>
+                                                <Input defaultValue={item.name} placeholder="Name" />
 
                                             </Form.Item>
                                             <Form.Item
@@ -181,21 +183,20 @@ class Home extends React.Component {
                                                     },
                                                 ]}
                                             >
-                                                <Input value = {item.email} placeholder ="Email"/>
+                                                <Input defaultValue={item.email} placeholder="Email" />
                                             </Form.Item>    <Form.Item
                                                 name="phone"
                                                 label="Phone Number"
-                                                
+
                                                 rules={[{ required: true, message: 'Please input your phone number!' }]}
                                             >
-                                                <Input value={item.phone} style={{ width: '100%' }} placeholder ="Phone" />
+                                                <Input defaultValue={item.phone} style={{ width: '100%' }} placeholder="Phone" />
                                             </Form.Item> <Form.Item
                                                 name="website"
                                                 label="Website"
-                                                value={item.website}
                                                 rules={[{ required: true, message: 'Please input website!' }]}
                                             >
-                                                    <Input value = {item.website} placeholder ="Website"/>
+                                                <Input defaultValue={item.website} placeholder="Website" />
                                             </Form.Item>
                                         </Form>
                                     </Modal>
@@ -218,4 +219,3 @@ class Home extends React.Component {
 }
 
 export default Home;
-    
